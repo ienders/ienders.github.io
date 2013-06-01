@@ -1,0 +1,15 @@
+---
+layout: default
+title: ian.thoughts -- Just some stuff floating around in the head of a guy named Ian Enders
+---
+
+<span class = "subtitle">
+  Stuff Ian Enders<br/>is thinking about...
+</span>
+
+<dl class="posts">
+  {% for post in site.posts %}
+    <dt>[{{ post.date | date_to_string }}] <i class = "icon-bolt"></i></dt>
+    <dd><a href="{{ post.url }}">{{ post.title }}</a></dd>
+  {% endfor %}
+</dl>
