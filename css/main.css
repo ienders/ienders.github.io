@@ -216,14 +216,14 @@ pre, code {
   margin: 0 4px;
   padding: 0;
   font-family: Menlo, Consolas, "Courier New", Courier, "Liberation Mono", monospace;
-  font-size: 14px;
+  font-size: 13px;
   padding: 0 .3em;
   line-height: 1.8em;
 }
 
 @media (min-width: 768px){
   pre, code {
-    font-size: 16px;
+    font-size: 13px;
   }
 }
 
